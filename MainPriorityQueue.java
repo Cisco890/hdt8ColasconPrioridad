@@ -1,3 +1,11 @@
+/** Juan Francisco Martínez 23617
+ *Segundo Main del programa, Se tiene la opcion de poder agregar más pacientes a la lista en el archivo TXT, esta versión usa
+ * Priority queue
+ *
+ * @param Priorityqueue  claves almacenadas en el árbol.
+ * @param String Datos nuevo paciente
+ * @param ArchivoTXT Datos con todos los pacientes disponibles, no ordenados
+ */
 import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.io.File;

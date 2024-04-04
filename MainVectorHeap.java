@@ -1,3 +1,11 @@
+/** Juan Francisco Martínez 23617
+ *Main del programa, Se tiene la opcion de poder agregar más pacientes a la lista en el archivo TXT, esta versión usa
+ * Vector Heap
+ *
+ * @param VectorHeap  claves almacenadas en el árbol.
+ * @param String Datos nuevo paciente
+ * @param ArchivoTXT Datos con todos los pacientes disponibles, no ordenados
+ */
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileWriter;
@@ -37,7 +45,7 @@ public class MainVectorHeap {
                 PacienteVectorHeap paciente = colaEmergencias.remove();
                 System.out.println(paciente);
             }
-
+// agregar más pacientes en la lista
             System.out.println("¿Desea agregar más pacientes? (s/n)");
             String respuesta = scanner.nextLine();
             if (respuesta.equalsIgnoreCase("s")) {

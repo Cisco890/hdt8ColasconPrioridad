@@ -1,4 +1,9 @@
-
+/** Juan Francisco Martínez 23617
+ * Clase que representa a un paciente en el programa y que implementa Comparable para comparar por código de emergencia.
+ *      * @param nombre            El nombre del paciente.
+ *     * @param sintoma           El síntoma del paciente.
+ *      * @param codigoEmergencia  El código de emergencia del paciente.
+ */
 // Clase Paciente que implementa Comparable para comparar por código de emergencia
 class PacientePriorityQueue implements Comparable<PacientePriorityQueue> {
     private String nombre;

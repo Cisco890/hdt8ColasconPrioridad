@@ -1,3 +1,9 @@
+/** Juan Francisco Martínez 23617
+
+ * VectorHeap es una implementación de PriorityQueue para manejar una cola con prioridad basada en un Heap.
+ *
+ * @param <E> El tipo de elementos almacenados en la cola con prioridad, que debe ser comparable.
+ */
 import java.util.PriorityQueue;
 import java.util.NoSuchElementException;
 import java.util.Vector;
@@ -58,7 +64,6 @@ class VectorHeap<E extends Comparable<E>> extends PriorityQueue<E> {
         return minVal;
     }
 
-    // Métodos no implementados pero requeridos por PriorityQueue
     @Override
     public boolean offer(E e) {
         return add(e); // Reusamos el método add ya que ambos hacen lo mismo
